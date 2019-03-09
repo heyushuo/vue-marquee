@@ -152,7 +152,9 @@ export default {
 ```JavaScript
 npm install heyushuo-marquee --save
 import PaoMaDeng from 'heyushuo-marquee';
-
+<PaoMaDeng :delay="0.5" :speed="100" :content="arr">
+      <span v-for="(item, index) in arr" :key="index">{{item}}</span>
+</PaoMaDeng>
 ```
 
 [github 如何使用地址和源码地址](https://github.com/heyushuo/vue-marquee)

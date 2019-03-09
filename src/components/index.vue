@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PaoMaDeng :content="arr">
+    <PaoMaDeng :delay="0.5" :speed="100" :content="arr">
       <span v-for="(item, index) in arr" :key="index">{{item}}</span>
     </PaoMaDeng>
   </div>
