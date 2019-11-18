@@ -43,6 +43,7 @@
     },
     watch: {
       content: {
+        immediate:true,
         handler() {
           this.$nextTick(() => {
             const {
